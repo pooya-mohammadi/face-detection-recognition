@@ -1,1 +1,3 @@
 dataset/people/*/cropped
+.idea
+*__pycache__*
