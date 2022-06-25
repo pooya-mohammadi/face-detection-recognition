@@ -2,3 +2,4 @@ dataset/people/*/cropped
 dataset/people/*/encodings
 .idea
 *__pycache__*
+*.pkl
