@@ -18,6 +18,10 @@ RUN pip install --no-cache-dir torch==1.10.0+cpu torchvision==0.11.1+cpu \
   && pip install --no-cache-dir pandas==1.3.4 \
   && pip install --no-cache-dir seaborn==0.11.2 \
   && pip install --no-cache-dir scipy==1.7.2 \
+  && pip install --no-cache-dir scikit-image==0.18.3 \
+  && pip install --no-cache-dir opencv-python==4.6.0.66 \
+  && pip install --no-cache-dir pillow==8.4.0 \
+  && pip install --no-cache-dir albumentations==1.1.0 \
   && rm -rf /root/.cache/pip
 
 COPY . /app
