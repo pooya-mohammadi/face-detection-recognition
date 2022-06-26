@@ -11,7 +11,7 @@ RUN apt-get update -y \
 # fixed python libraries for pytorch models
 RUN pip install --no-cache-dir torch==1.10.0+cpu torchvision==0.11.1+cpu \
   -f https://download.pytorch.org/whl/torch_stable.html \
-  && pip install --no-cache-dir numpy==1.21.4 \
+  && pip install --no-cache-dir numpy==1.22 \
   && pip install --no-cache-dir opencv-python==4.5.4.58 \
   && pip install --no-cache-dir scikit-learn==1.0.1 \
   && pip install --no-cache-dir matplotlib==3.4.3 \
