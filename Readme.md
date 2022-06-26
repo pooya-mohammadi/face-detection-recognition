@@ -28,7 +28,7 @@ dataset images are as follows:
 <table align="center">
   <tr>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/pooya-mohammadi">
         <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/ali/cropped/ali_0.jpg?token=GHSAT0AAAAAABT3F2X4LQTSXGER2BQJCEQQYVYHRXQ" width="100px;" height="120px;" alt="Ali"/><br>
         <sub>
           <b>Ali</b>
