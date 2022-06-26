@@ -1,6 +1,18 @@
 # Face-Detection-Recognition
 
-This project presents a full process of creating face-detection & face-recognition system.
+This project presents a full process of creating face-detection & face-recognition web-application service using 
+`deep_utils` library.
+
+The following modules and models are used in the project:
+```
+1. pytorch
+2. flask
+3. docker
+4. docker-compose
+5. nginx
+6. face-detection: ultra-light
+7. face-recognition: vggface2-senet50
+```
 
 # Dataset
 
