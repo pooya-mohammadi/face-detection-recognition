@@ -134,3 +134,5 @@ output:
 
 # References:
 1. https://github.com/pooya-mohammadi/deep_utils
+2. https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB
+3. https://github.com/cydonia999/VGGFace2-pytorch.git
