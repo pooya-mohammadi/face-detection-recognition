@@ -23,95 +23,52 @@ The dataset should a directory of images that should be like follows:
 ...
 ```
 
-[//]: # (dataset images are as follows:)
+dataset images are as follows:
 
-[//]: # (<table>)
-
-[//]: # (  <tr>)
-
-[//]: # (    <td align="center">)
-
-[//]: # (      <a href="#">)
-
-[//]: # (        <img src="https://github.com/pooya-mohammadi/face-detection-recognition/" alt="Pooya Mohammadi no GitHub"/><br>)
-
-[//]: # (        <sub>)
-
-[//]: # (          <b>Pooya Mohammadi Kazaj</b>)
-
-[//]: # (        </sub>)
-
-[//]: # (      </a>)
-
-[//]: # (    </td>)
-
-[//]: # (    <td align="center">)
-
-[//]: # (      <a href="https://github.com/Vargha-Kh">)
-
-[//]: # (        <img src="https://avatars.githubusercontent.com/u/69680607?v=4" width="100px;" alt="Vargha Khallokhi"/><br>)
-
-[//]: # (        <sub>)
-
-[//]: # (          <b>Vargha Khallokhi</b>)
-
-[//]: # (        </sub>)
-
-[//]: # (      </a>)
-
-[//]: # (    </td>)
-
-[//]: # (    <td align="center">)
-
-[//]: # (      <a href="https://github.com/dornasabet">)
-
-[//]: # (        <img src="https://avatars.githubusercontent.com/u/74057278?v=4" width="100px;" alt="Dorna Sabet"/><br>)
-
-[//]: # (        <sub>)
-
-[//]: # (          <b>Dorna Sabet</b>)
-
-[//]: # (        </sub>)
-
-[//]: # (      </a>)
-
-[//]: # (    </td>)
-
-[//]: # (    <td align="center">)
-
-[//]: # (      <a href="https://github.com/MenuaB">)
-
-[//]: # (        <img src="https://avatars.githubusercontent.com/u/16352202?v=4" width="100px;" alt="Menua Bedrosian"/><br>)
-
-[//]: # (        <sub>)
-
-[//]: # (          <b>Menua Bedrosian </b>)
-
-[//]: # (        </sub>)
-
-[//]: # (      </a>)
-
-[//]: # (    </td>)
-
-[//]: # (    <td align="center">)
-
-[//]: # (      <a href="https://github.com/alirezakazemipour">)
-
-[//]: # (        <img src="https://avatars.githubusercontent.com/u/32295763?v=4" width="100px;" alt="Alireza Kazemipour"/><br>)
-
-[//]: # (        <sub>)
-
-[//]: # (          <b>Alireza Kazemipour</b>)
-
-[//]: # (        </sub>)
-
-[//]: # (      </a>)
-
-[//]: # (    </td>)
-
-[//]: # (  </tr>)
-
-[//]: # (</table>)
+<table align="center">
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/ali/cropped/ali_0.jpg?token=GHSAT0AAAAAABT3F2X4LQTSXGER2BQJCEQQYVYHRXQ" width="100px;" height="120px;" alt="Ali"/><br>
+        <sub>
+          <b>Ali</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/farshad/cropped/farshad_0.jpg?token=GHSAT0AAAAAABT3F2X42V2CJVXBS5ZFXZVAYVYHS6A" width="100px;" height="120px;" alt="Farshad"/><br>
+        <sub>
+          <b>Farshad</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/pooya/cropped/pooya_0.jpg?token=GHSAT0AAAAAABT3F2X5IPBFCEVSVQANQ4NIYVYHUXA" width="100px;" height="120px;" alt="Pooya"/><br>
+        <sub>
+          <b>Pooya</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/shahriar/cropped/shahriar_2_0.jpg?token=GHSAT0AAAAAABT3F2X5PWDHB4QVX5VI7ZNCYVYHVMQ" width="100px;" height="120px;" alt="Shahriar"/><br>
+        <sub>
+          <b>Sahriar</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/vahid/cropped/vahid_0.jpg?token=GHSAT0AAAAAABT3F2X4OQU752IVCVBZYNIOYVYHWUQ" width="100px;" height="120px;" alt="Vahid"/><br>
+        <sub>
+          <b>Vahid</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
 
 Notes:
 
@@ -155,7 +112,7 @@ cd api/app
 python entry_point.py
 ```
 
-How to send a request:
+## Send a request:
 1. using `curl` request:
 ```commandline
 (echo -n '{"image": "'; base64 ./dataset/test/friends.jpg; echo '"}') | curl -H "Content-Type: application/json" -d @-  http://127.0.0.1:8000/face_recognition
@@ -171,6 +128,7 @@ output:
 python api/client.py --end_point http://127.0.0.1:8000/face_recognition --img_address ./dataset/test/friends.jpg 
 ```
 output: 
+
 ![](dataset/test/friends_res.jpg)
 
 
