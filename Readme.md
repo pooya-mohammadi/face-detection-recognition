@@ -28,7 +28,7 @@ dataset images are as follows:
 <table align="center">
   <tr>
     <td align="center">
-      <a href="https://github.com/pooya-mohammadi">
+      <a href="#">
         <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/ali/cropped/ali_0.jpg?token=GHSAT0AAAAAABT3F2X4LQTSXGER2BQJCEQQYVYHRXQ" width="100px;" height="120px;" alt="Ali"/><br>
         <sub>
           <b>Ali</b>
@@ -44,7 +44,7 @@ dataset images are as follows:
       </a>
     </td>
     <td align="center">
-      <a href="#">
+      <a href="https://github.com/pooya-mohammadi">
         <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/pooya/cropped/pooya_0.jpg?token=GHSAT0AAAAAABT3F2X5IPBFCEVSVQANQ4NIYVYHUXA" width="100px;" height="120px;" alt="Pooya"/><br>
         <sub>
           <b>Pooya</b>
