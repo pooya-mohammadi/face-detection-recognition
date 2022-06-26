@@ -1,0 +1,15 @@
+Flask==2.0.2
+gunicorn==20.1.0
+pillow==8.4.0
+pyaml==21.10.1
+scipy==1.7.2
+flask_restful==0.3.9
+scikit-learn==1.0.1
+opencv-python==4.5.4.58
+pandas==1.3.4
+numpy==1.21.4
+torch==1.10.0+cpu
+torchvision==0.11.1+cpu
+seaborn==0.11.2
+deep_utils>=0.9.6
+abumentaitons>=1.1.0

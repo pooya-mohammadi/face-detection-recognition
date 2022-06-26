@@ -1,0 +1,23 @@
+version: "3.7"
+services:
+  face_recognition:
+    build: ./app
+    container_name: face_recognition
+    restart: always
+    expose:
+      - 660
+    volumes:
+      - ./app:/app
+    environment:
+      - FACE_RECOGNITION_PATH=weights/senet50_ft_weight.pkl
+      - APP_ROOT=/face_recognition
+    command: gunicorn --workers=2 --threads 4 -b 0.0.0.0:660 entry_point:app --worker-class sync
+
+  nginx:
+    build: ./nginx
+    container_name: nginx-face_recognition
+    restart: always
+    ports:
+      - 8000:80
+    depends_on:
+      - face_recognition
