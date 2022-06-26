@@ -1,5 +1,5 @@
 from argparse import ArgumentParser
-from deep_utils import MTCNNTorchFaceDetector, VggFace2TorchFaceRecognition, UltralightTorchFaceDetector
+from deep_utils import VggFace2TorchFaceRecognition, UltralightTorchFaceDetector
 
 parser = ArgumentParser()
 parser.add_argument("--dataset_dir", default="dataset/people", help="path to the dataset")
