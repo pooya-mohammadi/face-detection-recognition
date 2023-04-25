@@ -41,7 +41,7 @@ dataset images are as follows:
   <tr>
     <td align="center">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/ali/cropped/ali_0.jpg?token=GHSAT0AAAAAABT3F2X4LQTSXGER2BQJCEQQYVYHRXQ" width="100px;" height="120px;" alt="Ali"/><br>
+        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/ali/cropped/ali_0.jpg" width="100px;" height="120px;" alt="Ali"/><br>
         <sub>
           <b>Ali</b>
         </sub>
@@ -49,7 +49,7 @@ dataset images are as follows:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/farshad/cropped/farshad_0.jpg?token=GHSAT0AAAAAABT3F2X42V2CJVXBS5ZFXZVAYVYHS6A" width="100px;" height="120px;" alt="Farshad"/><br>
+        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/farshad/cropped/farshad_0.jpg" width="100px;" height="120px;" alt="Farshad"/><br>
         <sub>
           <b>Farshad</b>
         </sub>
@@ -57,7 +57,7 @@ dataset images are as follows:
     </td>
     <td align="center">
       <a href="https://github.com/pooya-mohammadi">
-        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/pooya/cropped/pooya_0.jpg?token=GHSAT0AAAAAABT3F2X5IPBFCEVSVQANQ4NIYVYHUXA" width="100px;" height="120px;" alt="Pooya"/><br>
+        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/pooya/cropped/pooya_0.jpg" width="100px;" height="120px;" alt="Pooya"/><br>
         <sub>
           <b>Pooya</b>
         </sub>
@@ -65,7 +65,7 @@ dataset images are as follows:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/shahriar/cropped/shahriar_2_0.jpg?token=GHSAT0AAAAAABT3F2X5PWDHB4QVX5VI7ZNCYVYHVMQ" width="100px;" height="120px;" alt="Shahriar"/><br>
+        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/shahriar/cropped/shahriar_2_0.jpg" width="100px;" height="120px;" alt="Shahriar"/><br>
         <sub>
           <b>Sahriar</b>
         </sub>
@@ -73,7 +73,7 @@ dataset images are as follows:
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/vahid/cropped/vahid_0.jpg?token=GHSAT0AAAAAABT3F2X4OQU752IVCVBZYNIOYVYHWUQ" width="100px;" height="120px;" alt="Vahid"/><br>
+        <img src="https://raw.githubusercontent.com/pooya-mohammadi/face-detection-recognition/main/dataset/people/vahid/cropped/vahid_0.jpg" width="100px;" height="120px;" alt="Vahid"/><br>
         <sub>
           <b>Vahid</b>
         </sub>
