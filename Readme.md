@@ -99,7 +99,7 @@ By running the above code, faces of images will be cropped and saved in `cropped
 In addition, the encoding of each person is extracted and saved in `people/encodings`. Finally, a single file called
 `people.pkl` is created in `people` directory which contains a dictionary of names and encodings which will, eventually,
 used to recognize persons in a video. The output should be like the following picture.
-
+</br>
 ![](images/dataset_directory.png)
 
 
