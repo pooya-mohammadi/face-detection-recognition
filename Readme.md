@@ -138,7 +138,7 @@ output:
 
 2. Using `clinet.py`:
 ```commandline
-python api/client.py --end_point http://127.0.0.1:8000/face_recognition --img_address ./dataset/test/friends.jpg 
+python api/client.py --endpoint http://127.0.0.1:8000/face_recognition --img_address ./dataset/test/friends.jpg 
 ```
 output: 
 
