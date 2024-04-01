@@ -1,18 +1,19 @@
 from argparse import ArgumentParser
 import requests
 import cv2
-from deep_utils import img_to_b64, Box, show_destroy_cv2, split_extension
+from deep_utils import BinaryUtils, CVUtils, Box, split_extension
 import os
 
 parser = ArgumentParser()
 parser.add_argument("--endpoint", default="http://127.0.0.1:8000/face_recognition")
-parser.add_argument("--img_address", default='/home/ai/projects/face-detection-recognition/dataset/test/friends.jpg')
+parser.add_argument("--img_address", default='../dataset/test/friends.jpg')
+parser.add_argument("--show", action="store_true", help="shows the output")
 args = parser.parse_args()
 
 
 def infer(endpoint, img_address) -> dict:
     image = cv2.imread(img_address)[..., ::-1]
-    byte_img = img_to_b64(image)
+    byte_img = BinaryUtils.img_to_b64(image)
     data = {'image': byte_img}
     response = requests.post(endpoint, json=data, headers={"Content-Type": "application/json"})
     response.raise_for_status()
@@ -31,4 +32,5 @@ if __name__ == "__main__":
     for name, distance, box in output.values():
         img = Box.put_box_text(img, box, label=f"{name}-{distance}")
     cv2.imwrite(split_extension(args.img_address, suffix="_res"), img)
-    show_destroy_cv2(img)
+    if args.show:
+        CVUtils.show_destroy_cv2(img)
