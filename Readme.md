@@ -145,7 +145,8 @@ output:
 ![](dataset/test/friends_res.jpg)
 
 # Note:
-The recognition model for pytorch is not accurate! 
+The recognition model for pytorch is not accurate! You may wanna use: https://github.com/ageitgey/face_recognition until I fix this issue. 
+However, the docker and rest API are both fine and can be used!
 
 # References:
 1. https://github.com/pooya-mohammadi/deep_utils
