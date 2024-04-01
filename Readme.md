@@ -144,6 +144,8 @@ output:
 
 ![](dataset/test/friends_res.jpg)
 
+# Note:
+The recognition model for pytorch is not accurate! 
 
 # References:
 1. https://github.com/pooya-mohammadi/deep_utils
